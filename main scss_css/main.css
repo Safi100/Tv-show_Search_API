@@ -15,11 +15,10 @@ body {
 .owner {
   position: absolute;
   bottom: 0;
+  width: 100%;
+  text-align: center;
   color: #fff;
   font-size: 18px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
 }
 
 .owner a {
@@ -150,7 +149,7 @@ body {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .container {
     margin: 0 auto;
     padding: 30px 20px;
@@ -175,6 +174,12 @@ body {
 @media screen and (max-width: 373px) {
   .search_result {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    padding: 30px 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */
